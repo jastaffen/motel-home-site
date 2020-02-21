@@ -9,14 +9,14 @@ const FixedContactContainer = () => {
             
             <p className="mmm-summary"><div id="ci-border-left"></div>{motelHomeSummary}</p>
 
-            <p>INQUIRIES:
-                <span>
+            <p className="mmm-summary">INQUIRIES:
+                <span style={{marginTop: '2px'}}>
                     <a href="mailto:motelhomemusic@gmail.com" 
                     id="email-link">{"motelhomemusic@gmail.com".toUpperCase()}</a>
                 </span>
             </p>
 
-            {/* <p>NEW YORK CITY<span>430 LAFAYETTE STREET</span> </p> */}
+            <p className="mmm-summary">NEW YORK, NEW YORK</p>
 
         </div>
         

@@ -30,14 +30,18 @@ const VideoShow = () => {
                 onClick={() => history.push("/home")}>X</button>
 
                 <h1>{selectedVideo.title.toUpperCase()}</h1>
+
                 <div>
 
                     {selectedVideo.video.src ? 
+
                         <iframe title={selectedVideo.title} 
                         src={selectedVideo.video.src} width={selectedVideo.video.width} 
                         height={selectedVideo.video.height} 
                         frameBorder={selectedVideo.video.frameborder}
-                        allow="autoplay; fullscreen" allowFullScreen></iframe> 
+                        className="video"
+                        allow="fullscreen" allowFullScreen></iframe> 
+
                     : 
                         <iframe title="loading dock" 
                         src="https://giphy.com/embed/ycfHiJV6WZnQDFjSWH" 

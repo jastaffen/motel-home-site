@@ -19,14 +19,12 @@ const WorkImageCard = (props) => {
 
                 <h3>{title}</h3>
                 <img id="photo" src={image.src} 
-                    alt={`Screen Shot from video of ${title}`} 
-                    width={handleWidth(image.width)} 
-                    height={handleHeight(image.height)} />
+                    alt={`Screen Shot from video of ${title}`} style={{width: '250px', objectFit: 'cover'}} />
 
             </div>
 
         </Link>
-        
+
     </>
     )
 }

@@ -6,5 +6,6 @@ export const recentWork = [
     "Interlude music for Even Magazine's Podcast",
     "Sound Editing and sound design for Verses",
     "Musical Score and Sound Design for Vogue Italia's Fashion Week Show",
-    "Musical Score for Playboy Article"
+    "Musical Score for Playboy Article", 
+    "Ralph Lauren Digital ad Campaign"
 ];

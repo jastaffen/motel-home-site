@@ -23,7 +23,7 @@ const Home = () => {
                 <Route path={`/home/:company`} component={VideoShow} />
 
                 <Route exact path={'/home'}>
-                    <div className="screengrab-container">
+                    <div className="screengrab-container test">
                         {renderFeatures()}
                     </div>
                     <footer>
