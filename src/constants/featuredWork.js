@@ -1,6 +1,6 @@
 import glossierPhoto from '../images/glossier.jpeg';
 import versesPhoto from '../images/verses2.png';
-import vogueItaliaPhoto from '../images/vogueitalia.png';
+import vogueItaliaPhoto from '../images/vogueflowers.png';
 import fischPhoto from '../images/fisch.jpeg';
 import playboyPhoto from '../images/playboy.jpeg'
 

@@ -4,10 +4,10 @@ import { aboutText } from '../constants/aboutText';
 
 const About = () => {
     return(
-        <div className="about-container">
+        <div className="about-container test">
 
             <div>
-                {aboutText.map(text => <p>{text}</p>)}
+                {aboutText.map(text => <p>{text.toUpperCase()}</p>)}
             </div>
             
         </div>

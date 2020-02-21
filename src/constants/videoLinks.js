@@ -17,7 +17,7 @@ export const videoLinks = [
         title: "Verses: A Night of Poetry, Music, and Performance to Benefit the Asylum Seekers Advocacy Project",
         company: "verses",
         video: {
-            src: "https://www.nowness.com/iframe?id=6036507495001",
+            src: "http://nowness.brightcove.com.edgesuite.net/rtmp/2385340575001/201905/2108/2385340575001_6036518632001_6036507495001.mp4?pubId=2385340575001&videoId=6036507495001",
             width: 500,
             height: 315,
             frameborder: 0

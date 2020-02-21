@@ -7,7 +7,9 @@ body {
 a {
   color: black;
   text-decoration: none;
+  font-weight: 325;
 }
+
 
 p > span {
   display: block;
@@ -63,7 +65,6 @@ footer {
 }
 
 .contact-info {
-  width: auto;
   position: fixed;
 }
 
@@ -79,7 +80,9 @@ footer {
 
 .fixed-contact-container .mmm-summary {
   width: 48%;
+  text-align: left;
 }
+
 
 #email-link {
   text-decoration: none;
@@ -91,7 +94,7 @@ footer {
 
 #email-link:hover {
   padding-bottom: 5px;
-  opacity: 0.4
+  opacity: 0.4;
 }
 
 /* ********** */
@@ -101,25 +104,21 @@ footer {
   margin: 10px 0px;
   display: flex;
   flex-direction: column; 
-  justify-content: center;
-  align-content: center; 
   border-right: 1px solid black;
 }
 
 .screengrab-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
 
-
 .screengrab {
   padding: 5px;
-  margin: 4px 12px;
-  align-items: center;
+  margin: 4px 53px;
 }
 
 .screengrab h3 {
@@ -128,8 +127,12 @@ footer {
   font-weight: 442;
 }
 
-.screengrab img {
-  margin: 0 auto;
+
+#photo {
+  width: 100px;
+  height: 200px;
+  min-width: 25px;
+  min-height: 50;
 }
 
 .video-show {
@@ -139,9 +142,24 @@ footer {
   align-items: center;
 }
 
+.video-show h1 {
+  font-size: 15px;
+  position: relative;
+  top: 15px;
+  width: 100%;
+}
+
+.video-show p {
+  width: 85%;
+  font-size: 0.9rem;
+}
+
 .video-show h1, p {
   text-align: center;
+  font-weight: 300;
 }
+
+
 
 .video-show .vs-back-button {
   position: absolute;
@@ -153,9 +171,17 @@ footer {
   font-weight: 700;
 }
 
+
+
 .vs-back-button:active {
   color: white;
   background-color: black;
+}
+
+.video {
+  width: 50vw;
+  height: 50vh;
+  margin: 10px;
 }
 
 
@@ -202,7 +228,6 @@ footer {
   justify-content: center;
   border-right: 1px solid black;
   margin: 10px 0px;
-  height: 740px;
 }
 
 .about-container div {
