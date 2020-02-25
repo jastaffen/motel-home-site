@@ -4,24 +4,25 @@ export const videoLinks = [
     {
         title: "Une journée ensoleillée", 
         company: "playboy", 
-        video: 
+        video: [ 
             {
                 src: "https://player.vimeo.com/video/220386763?color=ffffff&title=0&byline=0&portrait=0",
                 width: 640, 
                 height: 360, 
                 frameborder: 0
-            },
+            }
+        ],
         jobDescription: "Musical score"
     },
     {
         title: "Verses: A Night of Poetry, Music, and Performance to Benefit the Asylum Seekers Advocacy Project",
         company: "verses",
-        video: {
+        video: [{
             src: "http://nowness.brightcove.com.edgesuite.net/rtmp/2385340575001/201905/2108/2385340575001_6036518632001_6036507495001.mp4?pubId=2385340575001&videoId=6036507495001",
             width: 500,
             height: 315,
             frameborder: 0
-        },
+        }],
         description: [
             
             `A short film documenting VERSES, a bi-annual night 
@@ -41,23 +42,44 @@ export const videoLinks = [
     {
         title: "FISCH",
         company: "fisch",
-        video: {
+        video: [
+            {
+            title: 'FISCH SWIMWEAR',
             src: "https://player.vimeo.com/video/327935883?loop=1&title=0&byline=0&portrait=0",
             width: 500,
             height: 300,
             frameborder: 0
-        },
+            },
+            {
+                title: 'FISCH SWIMWEAR alternate',
+                src: "https://player.vimeo.com/video/327934183?title=0&byline=0&portrait=0",
+                width: 640,
+                height: 360,
+                frameborder: 0
+            }
+        ],
         jobDescription: "Musical score"
     },
     {
         title: "VOGUE ITALIA MÃE TERRA",
         company: "vogue",
-        video: {
+        video: [{
             src: "https://player.vimeo.com/video/253493913?color=f9f9f9&title=0&byline=0&portrait=0",
             width: "100%",
             height: 485,
             frameborder: 0
-        },
-        jobDescription: "Musical score and Sound design"
+        }],
+        jobDescription: "Musical score, Sound design"
+    }, 
+    {
+        title: "Glossier Berry Balm Dotcom",
+        company: "glossier",
+        video: [{
+                src: "https://player.vimeo.com/video/351620845?color=ffffff&title=0&byline=0&portrait=0",
+                width: 640,
+                height: 360,
+                frameborder: 0
+            }],
+        jobDescription: "Musical score"
     }
 ]
