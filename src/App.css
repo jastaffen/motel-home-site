@@ -1,7 +1,7 @@
 /* constants */
 body {
   margin: 0px;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 a {
@@ -109,7 +109,9 @@ footer {
 
 .screengrab-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
   flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -118,7 +120,7 @@ footer {
 
 .screengrab {
   padding: 5px;
-  margin: 4px 53px;
+  margin: 4px 32px;
 }
 
 .screengrab h3 {
@@ -126,7 +128,6 @@ footer {
   font-size: 15px;
   font-weight: 442;
 }
-
 
 #photo {
   width: 100px;
@@ -159,8 +160,6 @@ footer {
   font-weight: 300;
 }
 
-
-
 .video-show .vs-back-button {
   position: absolute;
   top: 0px; 
@@ -171,12 +170,18 @@ footer {
   font-weight: 700;
 }
 
-
-
 .vs-back-button:active {
   color: white;
   background-color: black;
 }
+
+.video-card-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+}
+
 
 .video {
   width: 50vw;
@@ -184,6 +189,10 @@ footer {
   margin: 10px;
 }
 
+.carousel {
+  height: 20px;
+  outline: none;
+}
 
 .test {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */

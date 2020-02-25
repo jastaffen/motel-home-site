@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 
 import { useHistory } from 'react-router-dom';
 
+import VideoCard from './VideoCard';
+
 import { videoLinks } from '../constants/videoLinks';
 
 import { useParams } from 'react-router-dom'
@@ -14,10 +16,13 @@ const VideoShow = () => {
     let { company } = useParams();
 
     useEffect(() => {
-        let foundVideo = videoLinks.find(link => link.company === company);
-        setSelectedVideo(foundVideo);
+        let videoLink = videoLinks.find(link => link.company === company);
+        setSelectedVideo(videoLink);
     }, []);
 
+    const renderVideoCards = () => {
+        return <VideoCard videos={selectedVideo} />
+    }
 
     return(
 
@@ -33,15 +38,10 @@ const VideoShow = () => {
 
                 <div>
 
-                    {selectedVideo.video.src ? 
+                    {selectedVideo.video ? 
 
-                        <iframe title={selectedVideo.title} 
-                        src={selectedVideo.video.src} width={selectedVideo.video.width} 
-                        height={selectedVideo.video.height} 
-                        frameBorder={selectedVideo.video.frameborder}
-                        className="video"
-                        allow="fullscreen" allowFullScreen></iframe> 
-
+                        renderVideoCards()
+                    
                     : 
                         <iframe title="loading dock" 
                         src="https://giphy.com/embed/ycfHiJV6WZnQDFjSWH" 
@@ -52,7 +52,7 @@ const VideoShow = () => {
 
                 </div>
 
-                <p>{selectedVideo.jobDescription}</p>
+                <p>{selectedVideo.jobDescription.toUpperCase()}</p>
 
                 {selectedVideo.description ? 
                     selectedVideo.description.map(desc => <p>{desc}</p>) 
