@@ -34,7 +34,7 @@ const VideoShow = () => {
                 <button className="vs-back-button"
                 onClick={() => history.push("/home")}>X</button>
 
-                <h1>{selectedVideo.title.toUpperCase()}</h1>
+                <h1 style={{width: '70%'}}>{selectedVideo.title.toUpperCase()}</h1>
 
                 <div>
 
