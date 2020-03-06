@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-container test">
 
             <div>
-                {aboutText.map(text => <p>{text.toUpperCase()}</p>)}
+                {aboutText.map((text, index) => <p key={index}>{text.toUpperCase()}</p>)}
             </div>
             
         </div>
