@@ -2,8 +2,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-//imports
-import { handleWidth, handleHeight } from '../methods/dimensions';
 
 const WorkImageCard = (props) => {
 

@@ -18,7 +18,7 @@ const VideoShow = () => {
     useEffect(() => {
         let videoLink = videoLinks.find(link => link.company === company);
         setSelectedVideo(videoLink);
-    }, []);
+    }, [company]);
 
     const renderVideoCards = () => {
         return <VideoCard videos={selectedVideo} />
