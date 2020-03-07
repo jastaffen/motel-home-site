@@ -1,7 +1,4 @@
-import React, { useState, useEffect } from 'react';
-
-
-import LogoImage from '../images/motelhomelogo.png';
+import React, { useState } from 'react';
 
 import NavCard from '../components/NavCard';
 
@@ -9,19 +6,12 @@ const navBar = ['Motel Home', 'About'];
 
 const BannerContainer = () => {
 
-    const [loading, setLoading] = useState(false);
-    const [logoImage, setLogoImage] = useState(null);
     const [hoverSelect, setHoverSelect] = useState('');
 
     const handleHover = (item) => {
         setHoverSelect(item)
     }
 
-    useEffect(() => {
-        setLoading(true);
-        setLogoImage(LogoImage);
-        setLoading(false);
-    }, []);
 
     
 

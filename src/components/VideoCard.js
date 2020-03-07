@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import forwardArrow from '../images/forward-arrow.png';
 import backArrow from '../images/back-arrow.png'
@@ -25,7 +25,6 @@ const VideoCard = ({videos}) => {
         }
     }
 
-    console.log('why')
    
     return(
 
