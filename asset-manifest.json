@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/motel-home-site/static/css/main.0ca33828.chunk.css",
+    "main.js": "/motel-home-site/static/js/main.e93636c4.chunk.js",
+    "main.js.map": "/motel-home-site/static/js/main.e93636c4.chunk.js.map",
+    "runtime-main.js": "/motel-home-site/static/js/runtime-main.797bd3ba.js",
+    "runtime-main.js.map": "/motel-home-site/static/js/runtime-main.797bd3ba.js.map",
+    "static/js/2.fabce287.chunk.js": "/motel-home-site/static/js/2.fabce287.chunk.js",
+    "static/js/2.fabce287.chunk.js.map": "/motel-home-site/static/js/2.fabce287.chunk.js.map",
+    "index.html": "/motel-home-site/index.html",
+    "precache-manifest.737004ff0bc2d113bf83608862411dd8.js": "/motel-home-site/precache-manifest.737004ff0bc2d113bf83608862411dd8.js",
+    "service-worker.js": "/motel-home-site/service-worker.js",
+    "static/css/main.0ca33828.chunk.css.map": "/motel-home-site/static/css/main.0ca33828.chunk.css.map",
+    "static/js/2.fabce287.chunk.js.LICENSE.txt": "/motel-home-site/static/js/2.fabce287.chunk.js.LICENSE.txt",
+    "static/media/bulletpoint.png": "/motel-home-site/static/media/bulletpoint.2cf5ece3.png",
+    "static/media/fisch.jpeg": "/motel-home-site/static/media/fisch.69fcf1d5.jpeg",
+    "static/media/glossier.jpeg": "/motel-home-site/static/media/glossier.d73a99f6.jpeg",
+    "static/media/playboy.jpeg": "/motel-home-site/static/media/playboy.4842c011.jpeg",
+    "static/media/verses2.png": "/motel-home-site/static/media/verses2.f1c743eb.png",
+    "static/media/vogueflowers.png": "/motel-home-site/static/media/vogueflowers.efcb7db5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.797bd3ba.js",
+    "static/js/2.fabce287.chunk.js",
+    "static/css/main.0ca33828.chunk.css",
+    "static/js/main.e93636c4.chunk.js"
+  ]
+}
