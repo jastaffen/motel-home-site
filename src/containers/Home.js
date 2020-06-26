@@ -9,7 +9,6 @@ import { featuredWork } from '../constants/featuredWork';
 
 const Home = () => {
 
-
     const renderFeatures = () => {
         return featuredWork.map(work => <WorkImageCard key={work.id} {...work} />)
     }
